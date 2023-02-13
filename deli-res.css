@@ -1,0 +1,240 @@
+@media (max-width: 991px) {
+  header {
+    padding: 10px 4%;
+  }
+  section {
+    padding: 50px 4%;
+    /* overflow: hidden; */
+  }
+  :root {
+    --h1-font: 2rem;
+    --md-font: 1.2rem;
+    --p-font: 1.3rem;
+    --p-font-md: 1rem;
+  }
+  /* .home h1 {
+    font-size: var(--h1-font);
+  } */
+
+  /* .home h1 { 
+    font-size: var(--h1-font); 
+    background-color: green;
+ }  */
+}
+
+@media (max-width: 881px) {
+  :root {
+    --h1-font: 2rem;
+    --md-font: 1rem;
+    --p-font: 1.3rem;
+    --p-font-md: 1rem;
+  }
+  .home h1 {
+    font-size: var(--h1-font);
+  }
+  .home p {
+    font-size: var(--p-font);
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --h1-font: 1.7rem;
+    --md-font: 1rem;
+    --p-font: 1.2rem;
+  }
+  header {
+    padding: 11px 4%;
+  }
+  .menu-icon {
+    display: initial;
+    color: lightblue;
+  }
+  .menu-icone {
+    display: initial;
+    color: lightblue;
+  }
+  #btn {
+    display: none;
+  }
+  header .navbar {
+    position: absolute;
+    left: 0;
+    top: -550px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.5s ease;
+    text-align: center;
+  }
+
+  .navbar.active {
+    top: 100%;
+  }
+  .navbar a {
+    padding: 1.5rem;
+    display: block;
+    background: var(--bg-color);
+  }
+  .menu-moon{
+    position: relative; 
+    font-size: 30px;
+  }
+  .home {
+    grid-template-columns: 1fr;
+  }
+
+  .home-img {
+    order: initial;
+  }
+  .home img {
+    width: 95%;
+    margin-top: 90px;
+  }
+  .home h1 {
+    font-size: var(--h1-font);
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  .home p {
+    font-size: var(--p-font);
+    margin-bottom: 1rem;
+    opacity: 0.65;
+  }
+  .abt-us {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+
+    text-align: center;
+  }
+  .abt-us h3 {
+    font-size: var(--md-font);
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+
+    text-align: center;
+  }
+
+  .abt-us p {
+    font-size: var(--p-font);
+  }
+
+  .abt-us img {
+    width: 95%;
+  }
+  .abt-tex {
+    order: initial;
+  }
+
+  .safty {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  .safty h3 {
+    font-size: var(--p-font);
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+  }
+  .safty img {
+    width: 95%;
+  }
+  .safty p {
+    font-size: var(--p-font);
+  }
+  .heading {
+    font-size: var(--p-font);
+    line-height: 2.5rem;
+  }
+
+  .savis-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    justify-content: center;
+  }
+
+  .watch {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .watch img {
+    width: 90%;
+    margin: 0 40px;
+  }
+  .watch h2 {
+    margin-bottom: 1rem;
+    font-size: var(--p-font);
+  }
+  .watch p {
+    opacity: 0.65;
+    font-size: var(--p-font);
+  }
+  .watch-tex {
+    order: initial;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact h2 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  .contact .tele {
+    font-size: var(--p-font);
+  }
+  .contact p {
+    font-size: var(--p-font);
+  }
+
+  .footer {
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  li a {
+    align-items: center;
+    justify-content: center;
+    color: #0f0c27;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .footer i {
+    color: #0f0c27;
+    padding: 13px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 340px) {
+  :root {
+    --p-font: 0.7rem;
+    --h1-font: 1rem;
+  }
+
+  .home-text h1{
+    background-color: red;
+  }
+
+  .home-text p {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .btn {
+    width: 100%;
+    align-items: center;
+  }
+}
